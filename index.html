@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIK Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-page" id="login-page">
+    <img src="logo.png" alt="MIK Logo" class="logo">
+    <h1>Welcome to MIK</h1>
+    <div class="login-form">
+      <input type="text" id="userID" placeholder="Enter MIK ID">
+      <input type="password" id="password" placeholder="Enter Password">
+      <button onclick="login()">Log In</button>
+    </div>
+  </div>
+
+  <div class="main-page" id="main-page" style="display: none;">
+    <h1>Hi, <span id="username"></span></h1>
+    <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+    <div class="menu" id="menu" style="display: none;">
+      <button onclick="showTab('fire')">Fire</button>
+      <button onclick="showTab('timeout')">Timeout</button>
+      <button onclick="showTab('requests')">Requests</button>
+      <button onclick="showTab('settings')">Settings</button>
+      <button onclick="showTab('show-craft')">Show Your Craft</button>
+      <button onclick="showTab('terms')">Terms of Service</button>
+      <button onclick="showTab('privacy')">Privacy & Policy</button>
+      <button onclick="showOwnerPage()">Owner Page</button>
+    </div>
+    <div id="tab-content"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
