@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+.login-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login-form input {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-page {
+  text-align: center;
+}
+
+.menu-btn {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu button {
+  display: block;
+  margin: 5px auto;
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tab-content {
+  margin: 20px;
+}
