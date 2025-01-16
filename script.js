@@ -1,12 +1,12 @@
 const users = {
-  "MIK 15371": { name: "MIK", password: "MIK123456", rank: "Owner" },
-  "Abdullah Khurram": { name: "Abdullah Khurram", password: "MIK789012", rank: "Manager" },
-  "Rufy": { name: "Rufy", password: "MIK345678", rank: "Community Manager" },
-  "MIK 11656": { name: "MIK 11656", password: "MIK901234", rank: "Admin" },
-  "Ryan": { name: "Ryan", password: "MIK567890", rank: "Crafter" },
-  "Omar Ahmed": { name: "Omar Ahmed", password: "MIK678901", rank: "Crafter" },
-  "Zaryab": { name: "Zaryab", password: "MIK234567", rank: "Crafter" },
-  "Eyad": { name: "Eyad", password: "MIK890123", rank: "Crafter" }
+  "1": { name: "MIK", password: "MIK 105500", rank: "Owner" },
+  "2": { name: "Abdullah Khurram", password: "MIK 476437", rank: "Manager" },
+  "3": { name: "Rufy", password: "MIK 689434", rank: "Community Manager" },
+  "4": { name: "MIK 11656", password: "MIK 207564", rank: "Admin" },
+  "5": { name: "Ryan", password: "MIK 957078", rank: "Crafter" },
+  "6": { name: "Omar Ahmed", password: "MIK 988556", rank: "Crafter" },
+  "7": { name: "Zaryab", password: "MIK 272251", rank: "Crafter" },
+  "8": { name: "Eyad", password: "MIK 620720", rank: "Crafter" }
 };
 
 function login() {
