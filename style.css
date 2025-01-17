@@ -1,70 +1,61 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: black;
-  color: white;
   margin: 0;
   padding: 0;
+  background-color: #111;
+  color: white;
 }
 
-.logo {
-  width: 100px;
-  display: block;
-  margin: 20px auto;
-}
-
-h1 {
-  text-align: center;
-  color: yellow;
-}
-
-.login-page {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.login-form input {
-  margin: 10px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.login-form button {
-  background-color: yellow;
-  color: black;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
   padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   cursor: pointer;
 }
 
-.main-page {
-  text-align: center;
+.menu-icon div {
+  width: 30px;
+  height: 4px;
+  background-color: white;
 }
 
-.menu-btn {
-  background-color: yellow;
-  color: black;
-  border: none;
+nav {
+  display: none;
+  background-color: #333;
   padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #444;
+  text-align: center;
   cursor: pointer;
-}
-
-.menu {
-  margin-top: 20px;
-}
-
-.menu button {
-  display: block;
-  margin: 5px auto;
-  background-color: yellow;
-  color: black;
-  padding: 10px 20px;
-  border: none;
   border-radius: 5px;
-  cursor: pointer;
 }
 
-#tab-content {
-  margin: 20px;
+nav ul li:hover {
+  background-color: #555;
+}
+
+#TabContent {
+  padding: 20px;
 }
